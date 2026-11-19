@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loadbay — Build &amp; Growth Studio for B2B Services, Dev Agencies &amp; Startups</title>
+  <meta name="description" content="Loadbay designs, engineers and scales websites, products and lead systems for B2B service firms, development agencies and venture-backed startups." />
+  <meta name="theme-color" content="#14161a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2314161a'/%3E%3Cpath d='M9 8h4v12h10v4H9z' fill='%23ff5a1f'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('loaded')},6000);</script>
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <span class="loader__label mono">LOADING BAY 01</span>
+      <span class="loader__count">0</span>
+      <div class="loader__bar"><span></span></div>
+    </div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span>View</span></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="Loadbay home">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><rect width="32" height="32" rx="9" fill="currentColor"/><path d="M9 8h4v12h10v4H9z" fill="#ff5a1f"/></svg>
+      <span>Loadbay</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#serve">Who we serve</a>
+      <a href="#bays">Services</a>
+      <a href="#work">Work</a>
+      <a href="#partners">Agency partners</a>
+      <a href="#pricing">Engagements</a>
+    </nav>
+    <div class="nav__status mono"><i></i> 2 bays open · Q1</div>
+    <a href="#contact" class="btn btn--dark btn--sm magnetic">Start a project <span class="btn__arrow">→</span></a>
+    <button class="nav__burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="#serve">Who we serve</a>
+    <a href="#bays">Services</a>
+    <a href="#work">Work</a>
+    <a href="#partners">Agency partners</a>
+    <a href="#pricing">Engagements</a>
+    <a href="#contact" class="btn btn--accent">Start a project →</a>
+  </div>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__meta mono reveal-up">
+          <span class="tag">BAY 00 / STUDIO</span>
+          <span>Bengaluru · Remote-first · Since 2016</span>
+        </div>
+        <h1 class="hero__title split">
+          We build the <em>engine</em><br/> behind B2B growth.
+        </h1>
+        <div class="hero__row">
+          <p class="hero__lead reveal-up">Websites, products and lead systems for <strong>B2B service firms</strong>, <strong>dev agencies</strong> and <strong>startups</strong> — designed like a flagship, engineered like infrastructure.</p>
+          <div class="hero__ctas reveal-up">
+            <a href="#contact" class="btn btn--accent magnetic">Book a discovery call <span class="btn__arrow">→</span></a>
+            <a href="#work" class="btn btn--ghost magnetic">See shipped work</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__media-wrap">
+        <div class="hero__media" data-cursor>
+          <video class="hero__video" src="assets/video/hero-office.mp4" poster="assets/img/hero-poster.jpg" autoplay muted loop playsinline preload="auto"></video>
+          <div class="hero__media-shade"></div>
+          <div class="hero__chip hero__chip--a glass">
+            <span class="mono">PIPELINE ADDED</span>
+            <strong>₹42 Cr</strong>
+            <small>for clients in FY25</small>
+          </div>
+          <div class="hero__chip hero__chip--b glass">
+            <span class="dot-live"></span>
+            <div><strong>Sprint 14 shipped</strong><small>Deploy · 2 min ago</small></div>
+          </div>
+          <div class="hero__media-caption mono">
+            <span>INSIDE THE BAY — LIVE FOOTAGE</span>
+            <span>01 / 07</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="stats">
+          <li><span class="stats__num" data-count="180" data-suffix="+">0</span><span class="stats__label">B2B products &amp; sites shipped</span></li>
+          <li><span class="stats__num" data-count="38" data-suffix="">0</span><span class="stats__label">Dev agencies we white-label for</span></li>
+          <li><span class="stats__num" data-count="3.4" data-decimals="1" data-suffix="×">0</span><span class="stats__label">Average lift in qualified leads</span></li>
+          <li><span class="stats__num" data-count="11" data-suffix=" days">0</span><span class="stats__label">Median time to first release</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee" aria-label="Sectors we work with">
+      <div class="marquee__track">
+        <span>SaaS</span><i>✱</i><span>Consulting firms</span><i>✱</i><span>Dev agencies</span><i>✱</i><span>Fintech</span><i>✱</i><span>Logistics tech</span><i>✱</i><span>HR &amp; staffing</span><i>✱</i><span>IT services</span><i>✱</i><span>Seed → Series B</span><i>✱</i>
+        <span>SaaS</span><i>✱</i><span>Consulting firms</span><i>✱</i><span>Dev agencies</span><i>✱</i><span>Fintech</span><i>✱</i><span>Logistics tech</span><i>✱</i><span>HR &amp; staffing</span><i>✱</i><span>IT services</span><i>✱</i><span>Seed → Series B</span><i>✱</i>
+      </div>
+    </section>
+
+    <!-- WHO WE SERVE -->
+    <section class="serve section" id="serve">
+      <div class="container">
+        <div class="section-head">
+          <span class="tag mono reveal-up">BAY 01 / WHO WE SERVE</span>
+          <h2 class="section-title split">Three kinds of teams.<br/>One standard of build.</h2>
+          <p class="section-sub reveal-up">Hover a card to look inside — every clip is footage from teams like yours.</p>
+        </div>
+
+        <div class="serve__grid">
+          <article class="serve-card reveal-card" data-cursor>
+            <div class="serve-card__media">
+              <img src="assets/img/serve-b2b.jpg" alt="B2B consulting team reviewing a proposal around a table" loading="lazy" />
+              <video src="assets/video/deal.mp4" muted loop playsinline preload="none"></video>
+            </div>
+            <div class="serve-card__body">
+              <span class="serve-card__num mono">01</span>
+              <h3>B2B Services</h3>
+              <p>Consultancies, IT services, staffing and professional firms that sell on trust. We turn expertise into a site and pipeline that close enterprise deals.</p>
+              <ul class="chips"><li>Positioning</li><li>Lead gen sites</li><li>CRM wiring</li></ul>
+            </div>
+          </article>
+
+          <article class="serve-card reveal-card" data-cursor>
+            <div class="serve-card__media">
+              <img src="assets/img/serve-agency.jpg" alt="Development agency team working together on laptops" loading="lazy" />
+              <video src="assets/video/code.mp4" muted loop playsinline preload="none"></video>
+            </div>
+            <div class="serve-card__body">
+              <span class="serve-card__num mono">02</span>
+              <h3>Dev Agencies</h3>
+              <p>Overflow capacity under your brand. Senior designers and engineers who slot into your sprints, your Slack and your client's repo — invisibly.</p>
+              <ul class="chips"><li>White-label</li><li>Overflow squads</li><li>NDA-first</li></ul>
+            </div>
+          </article>
+
+          <article class="serve-card reveal-card" data-cursor>
+            <div class="serve-card__media">
+              <img src="assets/img/serve-startup.jpg" alt="Startup founders collaborating in a bright office" loading="lazy" />
+              <video src="assets/video/team.mp4" muted loop playsinline preload="none"></video>
+            </div>
+            <div class="serve-card__body">
+              <span class="serve-card__num mono">03</span>
+              <h3>Startups</h3>
+              <p>Seed to Series B. From a raise-ready marketing site to an MVP your first 100 customers can actually use — scoped tight, shipped fast.</p>
+              <ul class="chips"><li>MVP builds</li><li>Launch sites</li><li>Product design</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES / BAYS (horizontal scroll) -->
+    <section class="bays" id="bays">
+      <div class="bays__pin">
+        <div class="bays__slider">
+          <div class="bays__intro">
+            <span class="tag tag--light mono">BAY 02 / CAPABILITIES</span>
+            <h2 class="section-title section-title--light">
+              <span>Four bays.</span><br/>
+              <span>Everything a B2B</span><br/>
+              <span>engine needs.</span>
+            </h2>
+            <p class="bays__hint mono">SCROLL →</p>
+          </div>
+          <div class="bays__track">
+          <article class="bay">
+            <div class="bay__img"><img src="assets/img/bay-web.jpg" alt="Analytics dashboard on a laptop" loading="lazy" /></div>
+            <div class="bay__body">
+              <div class="bay__top"><span class="mono">BAY A</span><span class="bay__badge">Most booked</span></div>
+              <h3>Websites &amp; Product UI</h3>
+              <p>Conversion-led marketing sites, design systems and SaaS interfaces built on Next.js, Webflow or your stack.</p>
+              <ul><li>Brand &amp; messaging</li><li>Design systems</li><li>CMS &amp; SEO foundations</li></ul>
+            </div>
+          </article>
+          <article class="bay">
+            <div class="bay__img"><img src="assets/img/bay-eng.jpg" alt="Source code on a developer's monitor" loading="lazy" /></div>
+            <div class="bay__body">
+              <div class="bay__top"><span class="mono">BAY B</span></div>
+              <h3>Engineering Squads</h3>
+              <p>Full-stack teams for MVPs, platforms and integrations. React, Node, Python, Postgres — tested, documented, handed over clean.</p>
+              <ul><li>MVP in 6–10 weeks</li><li>APIs &amp; integrations</li><li>Cloud &amp; DevOps</li></ul>
+            </div>
+          </article>
+          <article class="bay">
+            <div class="bay__img"><img src="assets/img/bay-growth.jpg" alt="Growth metrics dashboard" loading="lazy" /></div>
+            <div class="bay__body">
+              <div class="bay__top"><span class="mono">BAY C</span></div>
+              <h3>Growth &amp; Lead Systems</h3>
+              <p>Outbound infrastructure, landing-page programs and SEO that fill the pipeline with buyers — not just traffic.</p>
+              <ul><li>ICP &amp; lead lists</li><li>Landing page sprints</li><li>Technical SEO</li></ul>
+            </div>
+          </article>
+          <article class="bay">
+            <div class="bay__img"><img src="assets/img/bay-auto.jpg" alt="Engineer working on automation workflows" loading="lazy" /></div>
+            <div class="bay__body">
+              <div class="bay__top"><span class="mono">BAY D</span><span class="bay__badge bay__badge--new">New</span></div>
+              <h3>CRM &amp; AI Automation</h3>
+              <p>HubSpot, Zoho and custom CRMs wired to your ops — with AI agents that qualify, route and follow up automatically.</p>
+              <ul><li>CRM architecture</li><li>Workflow automation</li><li>AI assistants</li></ul>
+            </div>
+          </article>
+          <div class="bay bay--end">
+            <span class="mono">NOT SURE WHICH BAY?</span>
+            <h3>Tell us the outcome.<br/>We'll scope the build.</h3>
+            <a href="#contact" class="btn btn--accent magnetic">Get a scoped plan <span class="btn__arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="bays__progress"><span></span></div>
+      </div>
+    </section>
+
+    <!-- REEL -->
+    <section class="reel section">
+      <div class="container">
+        <div class="reel__frame" data-cursor>
+          <video class="reel__video" src="assets/video/datacenter.mp4" poster="assets/img/bay-eng.jpg" muted loop playsinline preload="none"></video>
+          <div class="reel__overlay">
+            <span class="tag tag--light mono">BAY 03 / HOW WE RUN</span>
+            <h2 class="reel__title split">Built like infrastructure.<br/>Delivered like a product.</h2>
+            <div class="reel__facts">
+              <div><strong data-count="99.98" data-decimals="2" data-suffix="%">0</strong><span>uptime on the platforms we run</span></div>
+              <div><strong data-count="24" data-suffix="h">0</strong><span>max response time, every client</span></div>
+              <div><strong data-count="100" data-suffix="%">0</strong><span>code &amp; IP ownership transferred</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <span class="tag mono reveal-up">BAY 04 / SHIPPED WORK</span>
+            <h2 class="section-title split">Outcomes, not<br/>just outputs.</h2>
+          </div>
+          <p class="section-sub reveal-up">A few builds from the last 18 months. Client names shared with permission; numbers are verified from their analytics.</p>
+        </div>
+
+        <div class="work__grid">
+          <a href="#contact" class="case case--wide reveal-card" data-cursor>
+            <div class="case__media"><img src="assets/img/work-1.jpg" alt="Engineering team shipping a SaaS platform" loading="lazy" /></div>
+            <div class="case__info">
+              <div class="case__tags mono"><span>SaaS · Series A</span><span>Bay A + B</span></div>
+              <h3>Fleetwise — logistics SaaS replatform</h3>
+              <div class="case__metric"><strong>+212%</strong><span>demo requests in 90 days</span></div>
+            </div>
+          </a>
+          <a href="#contact" class="case reveal-card" data-cursor>
+            <div class="case__media"><img src="assets/img/work-2.jpg" alt="Consulting team planning on a whiteboard" loading="lazy" /></div>
+            <div class="case__info">
+              <div class="case__tags mono"><span>IT Services</span><span>Bay C</span></div>
+              <h3>Northgrid Consulting — enterprise pipeline</h3>
+              <div class="case__metric"><strong>₹6.8 Cr</strong><span>pipeline sourced in two quarters</span></div>
+            </div>
+          </a>
+          <a href="#contact" class="case reveal-card" data-cursor>
+            <div class="case__media"><img src="assets/img/work-3.jpg" alt="Developer building an automation workflow" loading="lazy" /></div>
+            <div class="case__info">
+              <div class="case__tags mono"><span>Dev Agency</span><span>White-label</span></div>
+              <h3>Pixel &amp; Pine — overflow squad</h3>
+              <div class="case__metric"><strong>14</strong><span>client projects delivered under their brand</span></div>
+            </div>
+          </a>
+          <a href="#contact" class="case case--wide reveal-card" data-cursor>
+            <div class="case__media"><img src="assets/img/work-4.jpg" alt="Startup team celebrating a launch" loading="lazy" /></div>
+            <div class="case__info">
+              <div class="case__tags mono"><span>Fintech · Seed</span><span>Bay B + D</span></div>
+              <h3>Ledgerly — MVP to first 1,000 users</h3>
+              <div class="case__metric"><strong>9 weeks</strong><span>from kickoff to paid launch</span></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section">
+      <div class="container process__inner">
+        <div class="process__left">
+          <span class="tag mono reveal-up">BAY 05 / PROCESS</span>
+          <h2 class="section-title split">From brief to<br/>live in four moves.</h2>
+          <div class="process__video" data-cursor>
+            <video src="assets/video/call.mp4" poster="assets/img/serve-b2b.jpg" muted loop playsinline preload="none"></video>
+            <span class="process__video-tag glass mono"><span class="dot-live"></span> Weekly client demo</span>
+          </div>
+        </div>
+        <ol class="steps">
+          <span class="steps__line"><span></span></span>
+          <li class="step">
+            <span class="step__num mono">01</span>
+            <div><h3>Dock</h3><p>A 60-minute teardown of your funnel, product and stack. You leave with a written plan — even if you never hire us.</p><span class="step__time mono">Week 0</span></div>
+          </li>
+          <li class="step">
+            <span class="step__num mono">02</span>
+            <div><h3>Blueprint</h3><p>Fixed scope, fixed price, clickable prototype. Every screen and integration agreed before a line of production code.</p><span class="step__time mono">Week 1–2</span></div>
+          </li>
+          <li class="step">
+            <span class="step__num mono">03</span>
+            <div><h3>Build</h3><p>Two-week sprints, live staging links and a Friday demo. You see progress every week, never a surprise at the end.</p><span class="step__time mono">Week 2–8</span></div>
+          </li>
+          <li class="step">
+            <span class="step__num mono">04</span>
+            <div><h3>Dispatch</h3><p>Launch, analytics, documentation and a 30-day warranty. Then we stay on as your growth bay — or hand over clean.</p><span class="step__time mono">Week 8+</span></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- AGENCY PARTNERS -->
+    <section class="partners section" id="partners">
+      <div class="container">
+        <div class="partners__card">
+          <div class="partners__media" data-cursor>
+            <video src="assets/video/design.mp4" poster="assets/img/partner.jpg" muted loop playsinline preload="none"></video>
+          </div>
+          <div class="partners__body">
+            <span class="tag tag--light mono">BAY 06 / FOR DEV AGENCIES</span>
+            <h2 class="section-title section-title--light split">Your brand on the door.<br/>Our team in the bay.</h2>
+            <p>Say yes to the projects you'd usually turn down. Our white-label squads work in your tools, under your name, at partner rates — and never contact your client directly.</p>
+            <ul class="partners__list">
+              <li><span>✓</span> Signed NDA &amp; non-solicit before kickoff</li>
+              <li><span>✓</span> Designers &amp; engineers from 4 hrs/week to full squads</li>
+              <li><span>✓</span> Your Jira, Slack, GitHub and QA process</li>
+              <li><span>✓</span> 25–35% partner margin built into pricing</li>
+            </ul>
+            <a href="#contact" class="btn btn--accent magnetic">Apply for the partner program <span class="btn__arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="voices section">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <span class="tag mono reveal-up">BAY 07 / CLIENT VOICES</span>
+            <h2 class="section-title split">Founders &amp; partners<br/>who'd hire us again.</h2>
+          </div>
+          <div class="voices__nav">
+            <button class="round-btn" data-dir="-1" aria-label="Previous testimonial">←</button>
+            <button class="round-btn" data-dir="1" aria-label="Next testimonial">→</button>
+          </div>
+        </div>
+        <div class="voices__viewport">
+          <div class="voices__track">
+            <figure class="voice">
+              <blockquote>"They rebuilt our site and CRM in seven weeks. Demo requests tripled, and for the first time our sales team trusts the lead data."</blockquote>
+              <figcaption><img src="assets/img/p-1.jpg" alt="Portrait of Arjun Mehta" loading="lazy" /><div><strong>Arjun Mehta</strong><span>Co-founder, Fleetwise</span></div></figcaption>
+            </figure>
+            <figure class="voice">
+              <blockquote>"Loadbay is the overflow team every agency owner wants. Our clients think they're our in-house engineers — that's the highest compliment."</blockquote>
+              <figcaption><img src="assets/img/p-2.jpg" alt="Portrait of Sara Lindqvist" loading="lazy" /><div><strong>Sara Lindqvist</strong><span>Managing Director, Pixel &amp; Pine</span></div></figcaption>
+            </figure>
+            <figure class="voice">
+              <blockquote>"Clear scope, honest pricing and a Friday demo every single week. We went from Figma to paying customers in nine weeks."</blockquote>
+              <figcaption><img src="assets/img/p-3.jpg" alt="Portrait of Daniel Okafor" loading="lazy" /><div><strong>Daniel Okafor</strong><span>CEO, Ledgerly</span></div></figcaption>
+            </figure>
+            <figure class="voice">
+              <blockquote>"We sell complex IT services. They found the words our buyers actually use and built a pipeline around them. ₹6.8 Cr in two quarters."</blockquote>
+              <figcaption><img src="assets/img/p-4.jpg" alt="Portrait of Priya Raman" loading="lazy" /><div><strong>Priya Raman</strong><span>VP Growth, Northgrid Consulting</span></div></figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="tag mono reveal-up">BAY 08 / ENGAGEMENTS</span>
+          <h2 class="section-title split">Pick the way<br/>you want to work.</h2>
+          <div class="toggle reveal-up" role="group" aria-label="Currency">
+            <button class="toggle__btn is-active" data-cur="inr">INR</button>
+            <button class="toggle__btn" data-cur="usd">USD</button>
+            <span class="toggle__pill"></span>
+          </div>
+        </div>
+        <div class="plans">
+          <article class="plan reveal-card">
+            <span class="plan__name mono">SPRINT</span>
+            <h3>Launch Sprint</h3>
+            <p class="plan__desc">A fixed-scope site, MVP slice or growth system, delivered in one go.</p>
+            <div class="plan__price"><span class="plan__from">from</span><strong data-inr="₹3.5L" data-usd="$4,200">₹3.5L</strong><span>/ project</span></div>
+            <ul><li>Discovery &amp; blueprint</li><li>Design + build, 4–6 weeks</li><li>Launch &amp; analytics</li><li>30-day warranty</li></ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Scope a sprint</a>
+          </article>
+          <article class="plan plan--featured reveal-card">
+            <span class="plan__flag mono">MOST CHOSEN</span>
+            <span class="plan__name mono">RETAINER</span>
+            <h3>Growth Bay</h3>
+            <p class="plan__desc">A dedicated pod for design, dev and growth — shipping every two weeks.</p>
+            <div class="plan__price"><span class="plan__from">from</span><strong data-inr="₹2.4L" data-usd="$2,900">₹2.4L</strong><span>/ month</span></div>
+            <ul><li>Designer + engineer + strategist</li><li>Bi-weekly releases</li><li>CRM &amp; automation upkeep</li><li>Monthly growth review</li></ul>
+            <a href="#contact" class="btn btn--accent btn--block magnetic">Reserve a bay →</a>
+          </article>
+          <article class="plan reveal-card">
+            <span class="plan__name mono">EMBEDDED</span>
+            <h3>White-label Squad</h3>
+            <p class="plan__desc">For dev agencies: senior people inside your team, under your brand.</p>
+            <div class="plan__price"><span class="plan__from">from</span><strong data-inr="₹1,800" data-usd="$24">₹1,800</strong><span>/ hour</span></div>
+            <ul><li>NDA &amp; non-solicit</li><li>Your tools &amp; process</li><li>Scale up or down monthly</li><li>Partner margin built in</li></ul>
+            <a href="#contact" class="btn btn--ghost btn--block">Become a partner</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section">
+      <div class="container faq__inner">
+        <div>
+          <span class="tag mono reveal-up">BAY 09 / FAQ</span>
+          <h2 class="section-title split">Questions buyers<br/>ask us first.</h2>
+          <p class="section-sub reveal-up">Still unsure? <a href="#contact" class="link">Talk to a founder</a> — not a salesperson.</p>
+        </div>
+        <div class="faq__list">
+          <details class="qa" open><summary>Who owns the code and design files?<span class="qa__icon"></span></summary><div class="qa__a"><p>You do — 100%. Repos live in your GitHub or GitLab from day one, and all Figma files, credentials and documentation are handed over at launch.</p></div></details>
+          <details class="qa"><summary>Can you work inside our existing stack?<span class="qa__icon"></span></summary><div class="qa__a"><p>Yes. We regularly work in Next.js, React, Node, Python, Laravel, Webflow, HubSpot and Zoho. If your stack is unusual, we'll tell you honestly in the discovery call.</p></div></details>
+          <details class="qa"><summary>How does white-labelling work for agencies?<span class="qa__icon"></span></summary><div class="qa__a"><p>We sign an NDA and non-solicit, use your email domain and tools, and join your client calls only if you want us there. Your client never sees the Loadbay name.</p></div></details>
+          <details class="qa"><summary>What if the scope changes mid-project?<span class="qa__icon"></span></summary><div class="qa__a"><p>Changes go through a short written change request with cost and timeline impact. Nothing is billed without your sign-off.</p></div></details>
+          <details class="qa"><summary>Do you work with early, pre-revenue startups?<span class="qa__icon"></span></summary><div class="qa__a"><p>Yes — many of our best builds started at pre-seed. We'll help you cut the MVP to what proves the business, so budget goes into what matters.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / CONTACT -->
+    <section class="cta section" id="contact">
+      <div class="container">
+        <div class="cta__card">
+          <video class="cta__video" src="assets/video/hero-office.mp4" poster="assets/img/cta.jpg" muted loop playsinline preload="none"></video>
+          <div class="cta__shade"></div>
+          <div class="cta__content">
+            <div class="cta__left">
+              <span class="tag tag--light mono">BAY 10 / START HERE</span>
+              <h2 class="cta__title split">Let's load<br/>your next build.</h2>
+              <p>Tell us what you're building. A founder replies within 24 hours with next steps — and a rough budget range.</p>
+              <div class="cta__contacts mono">
+                <a href="mailto:hello@loadbay.studio">hello@loadbay.studio</a>
+                <a href="tel:+918000000000">+91 80 0000 0000</a>
+              </div>
+            </div>
+            <form class="form glass" novalidate>
+              <div class="form__row">
+                <label><span>Name</span><input type="text" name="name" required placeholder="Your name" /></label>
+                <label><span>Work email</span><input type="email" name="email" required placeholder="you@company.com" /></label>
+              </div>
+              <fieldset class="form__chips">
+                <legend>I'm a…</legend>
+                <label><input type="radio" name="type" value="b2b" checked /><span>B2B service firm</span></label>
+                <label><input type="radio" name="type" value="agency" /><span>Dev agency</span></label>
+                <label><input type="radio" name="type" value="startup" /><span>Startup</span></label>
+              </fieldset>
+              <label><span>Budget</span>
+                <select name="budget">
+                  <option>₹3L – ₹8L</option><option>₹8L – ₹20L</option><option>₹20L+</option><option>Monthly retainer</option>
+                </select>
+              </label>
+              <label><span>What are you building?</span><textarea name="msg" rows="3" placeholder="A few lines on goals, timeline and stack"></textarea></label>
+              <button type="submit" class="btn btn--accent btn--block magnetic">Send brief <span class="btn__arrow">→</span></button>
+              <p class="form__note" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <p>Build &amp; growth studio for B2B services, dev agencies and startups.</p>
+          <div class="footer__status mono"><i></i> Currently booking projects for Q1</div>
+        </div>
+        <div class="footer__cols">
+          <div><h4 class="mono">Studio</h4><a href="#serve">Who we serve</a><a href="#bays">Services</a><a href="#work">Work</a><a href="#pricing">Engagements</a></div>
+          <div><h4 class="mono">Partners</h4><a href="#partners">White-label</a><a href="#partners">Agency program</a><a href="#contact">Referral</a></div>
+          <div><h4 class="mono">Social</h4><a href="#" aria-label="LinkedIn">LinkedIn</a><a href="#" aria-label="X">X / Twitter</a><a href="#" aria-label="Dribbble">Dribbble</a></div>
+        </div>
+      </div>
+      <div class="footer__word" aria-hidden="true">LOADBAY</div>
+      <div class="footer__bottom mono">
+        <span>© <span class="year"></span> Loadbay Studio</span>
+        <span>Bengaluru · India</span>
+        <a href="#top" class="to-top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js"></script>
+  <script src="assets/vendor/ScrollTrigger.min.js"></script>
+  <script src="assets/vendor/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
